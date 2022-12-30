@@ -6,7 +6,7 @@
         {
             Console.WriteLine("What is your favorite class?");
                 var favClass = Console.ReadLine();
-                switch (favClass)
+                switch (favClass.ToLower())
             {
                 case "history":
                     Console.WriteLine("History");
